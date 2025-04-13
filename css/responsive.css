@@ -93,6 +93,15 @@
   }
   /* choose end */
 
+  /* Best Pricing Start */
+  .price {
+    padding-bottom: 50px;
+  }
+  .price-item {
+    margin-top: 50px;
+  }
+  /* Best Pricing End */
+
 }
 
 
@@ -173,6 +182,15 @@
   }
   /* choose end */
 
+  /* Best Pricing Start */
+  .price {
+    padding-bottom: 60px;
+  }
+  .price-item {
+    margin-top: 50px;
+  }
+  /* Best Pricing End */
+
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -239,6 +257,15 @@
     margin-left: 10px;
   }
   /* choose end */
+
+  /* Best Pricing Start */
+  .price {
+    padding-bottom: 80px;
+  }
+  .price-item {
+    margin-top: 80px;
+  }
+  /* Best Pricing End */
 }
 
 

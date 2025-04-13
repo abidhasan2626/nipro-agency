@@ -120,6 +120,9 @@ header {background-color:var(--white);}
   border-radius: 0;
   transition: 1s linear;
 }
+.btn-common:focus {
+  box-shadow: none;
+}
 .btn-common span i{
 	margin-left: 15px;
 }
@@ -445,3 +448,104 @@ border-right: 1px solid var(--primary);
   bottom: -66px;
   opacity: 1;
 }
+/* Team End */
+
+/* Best Pricing Start */
+.price {
+  padding-bottom: 100px;
+}
+.price-title {}
+.price-item {
+  position: relative;
+  margin-top: 100px;
+  padding: 30px;
+  border: 1px solid var(--secondary);
+  transition: transform 400ms;
+}
+.price-item:hover {
+  border: 1px solid var(--primary);
+  transform: translateY(-10px);
+}
+.plan-title {
+  position: absolute;
+  top: -20px;
+  left: 25px;
+  background-color: var(--white);
+  padding: 10px 5px;
+
+}
+.pt-h4 {
+  margin-bottom: 50px;
+  font-family: var(--lato);
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--primary);
+  text-transform: uppercase;
+}
+.plan-details {
+  margin: 30px 0 10px;
+}
+.pd-h3 {
+  margin-bottom: 30px;
+  font-size: 36px;
+  color: var(--primary);
+}
+.pd-h3 span {
+  margin: 50px 0 30px 10px;
+  font-size: 18px;
+  color: var(--secondary);
+  text-transform: capitalize;
+}
+.plan-details ul li {
+  margin-bottom: 15px;
+  text-transform: capitalize;
+}
+.plan-details ul li span {
+  margin-right: 10px;
+}
+.price-btn {
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px 25px;
+  font-weight: 500;
+  color: var(--secondary);
+  border: 1px solid var(--secondary);
+  border-radius: 0;
+  text-transform: uppercase;
+}
+.price-btn:focus {
+  box-shadow: none;
+}
+.price-item:hover .price-btn {
+  background-color: transparent;
+  border: 1px solid var(--primary);
+}
+.price-btn span i {
+  margin-left: 15px;
+}
+/* Best Pricing Start */
+
+/* Call to Action Start */
+.cta {
+  padding-bottom: 100px;
+  background-color: #f8f8f8;
+}
+.cta-content {}
+.cta-h3 {
+  font-family: var(--lato);
+	font-size: 18px;
+	font-weight: 400;
+	color: var(--primary);
+	text-transform: uppercase;
+}
+.cta-h3 span {
+  margin: 0 5px;
+}
+.cta-btn {}
+.call-btn {
+  border: 1px solid var(--primary);
+}
+.call-btn:focus {
+  box-shadow: none;
+}
+/* Call to Action Start */
