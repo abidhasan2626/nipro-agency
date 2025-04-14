@@ -74,6 +74,18 @@
   }
   /* Recent Work End */
 
+  /* Team start */
+  .team {
+    padding-bottom: 50px;
+  }
+  .team-title h1 {
+    font-size: 25px;
+  }
+  .single-team {
+    margin-top: 50px;
+  }
+  /* Team End */
+
   /* choose start */
   .choose {
     padding-bottom: 50px;
@@ -82,7 +94,7 @@
     margin-top: 40px;
   }
   .choose-title h1 {
-    font-size: 29px;
+    font-size: 27px;
   }
   .choose-item {
     text-align: center;
@@ -97,10 +109,96 @@
   .price {
     padding-bottom: 50px;
   }
+  .price-title {
+    margin-top: 50px;
+  }
   .price-item {
     margin-top: 50px;
   }
   /* Best Pricing End */
+
+  /* Call to Action Start */
+  .cta {
+    padding-bottom: 50px;
+  }
+  .cta-content {
+    text-align: center;
+  }
+  .cta-h3 {
+    font-size: 16px;
+  }
+  .cta-btn {
+    margin-top: 20px;
+    text-align: center;
+  }
+  /* Call to Action Start */
+
+  /* Testimonial Start */
+  .tc-h2 {
+    margin-top: 10px;
+    font-size: 25px;
+  }
+  .tc-designation {
+    margin: 10px 0;
+  }
+  .tc-company {
+    margin-bottom: 20px;
+  }
+  .tc-content1, .tc-content2 {
+    line-height: 25px;
+  }
+  .tc-content2 {
+    margin-bottom: 0;
+  }
+  .testimonial-btn {
+    margin-top: 20px;
+    padding: 15px 0;
+    writing-mode: unset;
+  }
+  .t-prev-btn {
+    padding-bottom: 0;
+  }
+  .t-next-btn {
+    padding-top: 0;
+  }
+  /* Testimonial End */
+
+  /* Contact Start */
+  .contact {
+    padding-bottom: 60px;
+  }
+  .contact-title {
+    padding: 5px 10px;
+  }
+  .ct-h1 {
+    font-size: 20px;
+  }
+  .contact-form {
+    padding: 30px;
+    margin-top: 25px;
+  }
+  .contact-input {
+    margin-bottom: 30px;
+  }
+  .submit {
+    margin-bottom: 10px;
+  }
+  /* Contact End */
+
+  /* Footer Start */
+  .footer-social li a i {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+  }
+  .bottom-menu {
+      margin-top: 20px;
+  }
+  .bottom-menu ul li {
+      display: block;
+      padding: 5px 0;
+  }
+  /* Footer End */
 
 }
 
@@ -186,10 +284,65 @@
   .price {
     padding-bottom: 60px;
   }
+  .price-title {
+    margin-top: 50px;
+  }
   .price-item {
     margin-top: 50px;
   }
   /* Best Pricing End */
+
+  /* Call to Action Start */
+  .cta {
+    padding-bottom: 60px;
+  }
+  .cta-content {
+    text-align: center;
+  }
+  .cta-btn {
+    margin-top: 30px;
+    text-align: center;
+  }
+  .call-btn {
+    width: 40%;
+  }
+  /* Call to Action Start */
+
+  /* Testimonial Start */
+  .tc-h2 {
+    margin-top: 15px;
+  }
+  .testimonial-btn {
+    margin-top: 20px;
+    padding: 15px 0;
+    writing-mode: unset;
+  }
+  .t-prev-btn {
+    padding-bottom: 0;
+  }
+  .t-next-btn {
+    padding-top: 0;
+  }
+  /* Testimonial End */
+
+  /* Contact Start */
+  .contact-form {
+    padding: 50px;
+  }
+  .submit {
+    margin-bottom: 10px;
+  }
+  /* Contact End */
+
+  /* Footer Start */
+  .bottom-menu {
+    margin-top: 20px;
+  }
+  .bottom-menu ul li {
+    display: block;
+    padding: 5px 0;
+  }
+  /* Footer End */
 
 }
 
@@ -266,6 +419,26 @@
     margin-top: 80px;
   }
   /* Best Pricing End */
+
+  /* Call to Action Start */
+  .cta {
+    padding-bottom: 80px;
+  }
+  /* Call to Action end */
+
+  /* Testimonial Start */
+  .testimonial-btn {
+    margin-top: 20px;
+    padding: 15px 0;
+    writing-mode: unset;
+  }
+  .t-prev-btn {
+    padding-bottom: 0;
+  }
+  .t-next-btn {
+    padding-top: 0;
+  }
+  /* Testimonial End */
 }
 
 
@@ -298,6 +471,13 @@
   .choose-icon i{
     font-size: 48px;
   }
+  /* Choose End */
+
+  /* Testimonial Start */
+  .testimonial-btn {
+    padding: 61px 20px;
+  }
+  /* Testimonial End */
 
 }
 
@@ -329,5 +509,11 @@
     font-size: 18px;
   }
   /* About End */
+
+  /* Testimonial Start */
+  .testimonial-btn {
+    padding: 105px 20px;
+  }
+  /* Testimonial End */
 
 }
