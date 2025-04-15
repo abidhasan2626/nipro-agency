@@ -647,6 +647,9 @@ border-right: 1px solid var(--primary);
   border-left: 0;
   margin-bottom: 50px;
 }
+.contact-input:hover::placeholder {
+  color: var(--primary);
+}
 .contact-input:focus {
   outline: 0;
   box-shadow: none;
@@ -675,8 +678,11 @@ footer {
   color: var(--white);
   text-align: center;
 }
-.footer-social {}
+.footer-social {
+ display: inline;
+}
 .footer-social ul {
+  
   text-align: center;
 }
 .footer-social ul li a {

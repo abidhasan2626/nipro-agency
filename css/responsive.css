@@ -76,13 +76,13 @@
 
   /* Team start */
   .team {
-    padding-bottom: 50px;
+    padding-bottom: 80px;
   }
   .team-title h1 {
     font-size: 25px;
   }
   .single-team {
-    margin-top: 50px;
+    margin-top: 80px;
   }
   /* Team End */
 
@@ -192,11 +192,19 @@
     font-size: 20px;
   }
   .bottom-menu {
-      margin-top: 20px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .bottom-menu ul {
+    padding-inline-start: 0;
+  
   }
   .bottom-menu ul li {
-      display: block;
-      padding: 5px 0;
+    display: block;
+    padding: 5px 0;
+  }
+  .bottom-menu ul li a {
+    margin: 0;
   }
   /* Footer End */
 
@@ -337,10 +345,18 @@
   /* Footer Start */
   .bottom-menu {
     margin-top: 20px;
+    text-align: center;
+  }
+  .bottom-menu ul {
+    padding-inline-start: 0;
+  
   }
   .bottom-menu ul li {
     display: block;
     padding: 5px 0;
+  }
+  .bottom-menu ul li a {
+    margin: 0;
   }
   /* Footer End */
 
